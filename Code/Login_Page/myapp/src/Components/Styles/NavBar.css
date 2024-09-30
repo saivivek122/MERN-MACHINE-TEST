@@ -1,0 +1,42 @@
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  
+ 
+  .navbar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  
+  .navbar button {
+    background-color: #444;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Change button color when hovered */
+  .navbar button:hover {
+    background-color: #555;
+  }
+  
+  /* Optional: Responsive design for smaller screens */
+  @media (max-width: 600px) {
+    .navbar nav {
+      flex-direction: column;
+    }
+  
+    .navbar button {
+      margin: 5px 0;
+      width: 100%;
+    }
+  }
+  
